@@ -1,0 +1,70 @@
+{
+  "test_timestamp": "2025-11-10T12:32:25.843352",
+  "short_document": {
+    "length": 295,
+    "result": {
+      "case_id": "1996 of 2023",
+      "court": "High Court of Madras",
+      "date": "2023-06-28",
+      "petitioners": [
+        "ABC Pvt Ltd"
+      ],
+      "respondents": [
+        "State of Tamil Nadu"
+      ],
+      "judges": [
+        "S. Kumar"
+      ],
+      "acts_referred": [],
+      "predicted_outcome": "Dismissed",
+      "summary": "The petition filed by ABC Pvt Ltd seeking relief was dismissed by Hon'ble Justice S. Kumar.",
+      "case_type": "Civil Miscellaneous Appeal",
+      "primary_legal_issue": "Unknown",
+      "extraction_timestamp": "2025-11-10T12:30:32.581964",
+      "extraction_method": "groq_lenient",
+      "text_length": 295,
+      "model_used": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "tokens_used": {
+        "input": 417,
+        "output": 131,
+        "total": 548
+      }
+    }
+  },
+  "medium_document": {
+    "length": 3951,
+    "result": {
+      "case_id": "ITA 567/2023",
+      "court": "High Court of Delhi at New Delhi",
+      "date": "2023-05-15",
+      "petitioners": [
+        "M/S Tech Solutions Pvt Ltd"
+      ],
+      "respondents": [
+        "Principal Commissioner of Income Tax"
+      ],
+      "judges": [
+        "Hon'ble Mr. Justice Vibhu Bakrhu",
+        "Hon'ble Mr. Justice Amit Mahajan"
+      ],
+      "acts_referred": [
+        "Income Tax Act, 1961",
+        "Section 260A",
+        "Section 68"
+      ],
+      "predicted_outcome": "Partly Allowed",
+      "summary": "The appeal was filed under Section 260A of the Income Tax Act, 1961, challenging the ITAT order for Assessment Year 2019-20. The appellant company challenged the addition of Rs. 2.5 crores to its income as unexplained cash deposits during demonetization. The Court partly allowed the appeal, reducing the addition to Rs. 1.25 crores (50%) and remanding the matter to the Assessing Officer to recompute the tax liability.",
+      "case_type": "Income Tax Appeal",
+      "primary_legal_issue": "Whether the ITAT erred in confirming the addition of Rs. 2.5 crores as unexplained cash deposits under Section 68 of the Income Tax Act, 1961.",
+      "extraction_timestamp": "2025-11-10T12:32:25.839065",
+      "extraction_method": "groq_lenient",
+      "text_length": 3951,
+      "model_used": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "tokens_used": {
+        "input": 1180,
+        "output": 292,
+        "total": 1472
+      }
+    }
+  }
+}

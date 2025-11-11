@@ -1,0 +1,39 @@
+# Core Dependencies
+boto3>=1.28.0                    # AWS S3 access for judgment downloads
+botocore>=1.31.0                 # AWS SDK core
+
+# Data Processing
+beautifulsoup4>=4.12.0           # HTML tag cleaning from JSON
+lxml>=4.9.0                      # HTML parser for BeautifulSoup
+PyPDF2>=3.0.0                    # PDF text extraction (optional, using JSON now)
+
+# LLM & NLP
+groq>=0.4.0                      # Groq API for LLM-based entity extraction
+sentence-transformers>=2.2.0     # Semantic embeddings for similarity search
+transformers>=4.30.0             # Required by sentence-transformers
+
+# Machine Learning & Data Science
+scikit-learn>=1.3.0              # Cosine similarity calculations
+numpy>=1.24.0                    # Numerical computations
+pandas>=2.0.0                    # Data manipulation (optional but useful)
+
+# Visualization
+matplotlib>=3.7.0                # Chart generation for analytics
+seaborn>=0.12.0                  # Enhanced visualizations (optional)
+
+# Utilities
+python-dotenv>=1.0.0             # Environment variable management
+tqdm>=4.65.0                     # Progress bars
+
+# Development (Optional)
+jupyter>=1.0.0                   # For Jupyter notebook
+ipykernel>=6.25.0                # Jupyter kernel
+notebook>=7.0.0                  # Jupyter notebook interface
+
+# Optional but recommended
+torch>=2.0.0                     # PyTorch for transformer models (CPU version)
+# For GPU support, install: torch>=2.0.0+cu118
+
+# Testing (Optional)
+pytest>=7.4.0                    # Unit testing
+pytest-cov>=4.1.0                # Coverage reporting
